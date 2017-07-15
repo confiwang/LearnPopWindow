@@ -8,15 +8,22 @@
 
 #import "AppDelegate.h"
 
+#import "CFNormalPopWindowController.h"
+
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
+@property (nonatomic, strong) CFNormalPopWindowController *normalPopWindowController;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    //展示自定义的Window
+    self.normalPopWindowController = [[CFNormalPopWindowController alloc] initWithWindowNibName:@"CFNormalPopWindowController"];
+    
+    [self.normalPopWindowController showWindow:self];
 }
 
 

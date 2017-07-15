@@ -11,6 +11,9 @@
 		B7B3DC2B1F18FB5D002104BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B3DC2A1F18FB5D002104BA /* main.m */; };
 		B7B3DC2D1F18FB5D002104BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B3DC2C1F18FB5D002104BA /* Assets.xcassets */; };
 		B7B3DC301F18FB5D002104BA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7B3DC2E1F18FB5D002104BA /* MainMenu.xib */; };
+		B7B3DC391F18FB96002104BA /* CFNormalPopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B3DC381F18FB96002104BA /* CFNormalPopWindow.m */; };
+		B7B3DC3D1F19FFCA002104BA /* CFNormalPopWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B3DC3B1F19FFCA002104BA /* CFNormalPopWindowController.m */; };
+		B7B3DC3E1F19FFCA002104BA /* CFNormalPopWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7B3DC3C1F19FFCA002104BA /* CFNormalPopWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,11 @@
 		B7B3DC2C1F18FB5D002104BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7B3DC2F1F18FB5D002104BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B7B3DC311F18FB5D002104BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B3DC371F18FB96002104BA /* CFNormalPopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFNormalPopWindow.h; path = ../CFNormalPopWindow.h; sourceTree = "<group>"; };
+		B7B3DC381F18FB96002104BA /* CFNormalPopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFNormalPopWindow.m; path = ../CFNormalPopWindow.m; sourceTree = "<group>"; };
+		B7B3DC3A1F19FFCA002104BA /* CFNormalPopWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFNormalPopWindowController.h; sourceTree = "<group>"; };
+		B7B3DC3B1F19FFCA002104BA /* CFNormalPopWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFNormalPopWindowController.m; sourceTree = "<group>"; };
+		B7B3DC3C1F19FFCA002104BA /* CFNormalPopWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFNormalPopWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +61,17 @@
 		B7B3DC251F18FB5D002104BA /* LearnPopWindow */ = {
 			isa = PBXGroup;
 			children = (
+				B7B3DC371F18FB96002104BA /* CFNormalPopWindow.h */,
+				B7B3DC381F18FB96002104BA /* CFNormalPopWindow.m */,
 				B7B3DC261F18FB5D002104BA /* AppDelegate.h */,
 				B7B3DC271F18FB5D002104BA /* AppDelegate.m */,
 				B7B3DC2C1F18FB5D002104BA /* Assets.xcassets */,
 				B7B3DC2E1F18FB5D002104BA /* MainMenu.xib */,
 				B7B3DC311F18FB5D002104BA /* Info.plist */,
 				B7B3DC291F18FB5D002104BA /* Supporting Files */,
+				B7B3DC3A1F19FFCA002104BA /* CFNormalPopWindowController.h */,
+				B7B3DC3B1F19FFCA002104BA /* CFNormalPopWindowController.m */,
+				B7B3DC3C1F19FFCA002104BA /* CFNormalPopWindowController.xib */,
 			);
 			path = LearnPopWindow;
 			sourceTree = "<group>";
@@ -131,6 +144,7 @@
 			files = (
 				B7B3DC2D1F18FB5D002104BA /* Assets.xcassets in Resources */,
 				B7B3DC301F18FB5D002104BA /* MainMenu.xib in Resources */,
+				B7B3DC3E1F19FFCA002104BA /* CFNormalPopWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7B3DC2B1F18FB5D002104BA /* main.m in Sources */,
+				B7B3DC3D1F19FFCA002104BA /* CFNormalPopWindowController.m in Sources */,
 				B7B3DC281F18FB5D002104BA /* AppDelegate.m in Sources */,
+				B7B3DC391F18FB96002104BA /* CFNormalPopWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
